@@ -5,6 +5,7 @@ import Button from '@atlaskit/button';
 function App() {
   return (
   <>
+    <h1>add new</h1>
     <h3>Danh sach can lam</h3> 
     <Textfield 
       name ="add-todo" 
@@ -58,3 +59,5 @@ export default App;
 //Ví dụ: nguồn React Conf, Blogged answers "why React context doesn't replace Redux?", Mark Erikson - The state of Redux 
 
 //CÂU HỎI: làm sao chạy được source code của người khác online, mà không phải download về máy mình
+//push code lên github: ghi ra để cho đỡ ph giở Youtube xem lại này
+//git init -> git add . -> git commit -m "noi dung message" -> git set remote (copy trên github repo) -> git push origin master
